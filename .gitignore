@@ -1,0 +1,14 @@
+.*/
+**__**
+**test**
+*.sh
+*.txt
+*.json
+*.session*
+*.service
+config*.py
+logs/
+.env
+
+!requirements.txt
+!config.py

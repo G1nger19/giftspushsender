@@ -35,7 +35,7 @@ BASIC_REQUEST_DATA = {
 }
 
 
-BOTS_AMOUNT = len(config.BOT_TOKENS)
+BOTS_AMOUNT = len(config.BOT_TOKEN)
 
 if BOTS_AMOUNT > 0:
     BOT_HTTP_CLIENT = AsyncClient(
@@ -43,7 +43,7 @@ if BOTS_AMOUNT > 0:
         timeout = config.HTTP_REQUEST_TIMEOUT
     )
 
-    BOT_TOKENS_CYCLE = cycle(config.BOT_TOKENS)
+    BOT_TOKENS_CYCLE = cycle(config.BOT_TOKEN)
 
 
 STAR_GIFTS_DATA = StarGiftsData.load()
@@ -327,9 +327,10 @@ async def main() -> None:
     logger.info("Starting gifts detector...")
 
     app = Client(
-        name = config.SESSION_NAME,
-        api_id = config.API_ID,
-        api_hash = config.API_HASH
+        name=config.SESSION_NAME,
+        api_id=config.API_ID,
+        api_hash=config.API_HASH,
+        bot_token=config.BOT_TOKEN
     )
 
     update_gifts_queue = (

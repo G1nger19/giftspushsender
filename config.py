@@ -10,7 +10,7 @@ SESSION_NAME = os.getenv("SESSION_NAME")
 API_ID = int(os.getenv("API_ID"))
 API_HASH = os.getenv("API_HASH")
 
-BOT_TOKENS = os.getenv("BOT_TOKENS").split(',')
+BOT_TOKEN = os.getenv("BOT_TOKEN")
 
 CHECK_INTERVAL = float(os.getenv("CHECK_INTERVAL"))
 DATA_FILEPATH = constants.WORK_DIRPATH / "star_gifts.json"

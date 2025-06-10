@@ -1427,30 +1427,6 @@
             "total_amount": 400000,
             "is_limited": true,
             "message_id": 280
-        },
-        {
-            "id": 6028601630662853006,
-            "number": 120,
-            "sticker_file_id": "BQACAgIAAxUAAWhEuCsr6gXhEd4bls8BhpAAAVEOxwAC1xgAAstFiUqimEO3LiMGiR4E",
-            "sticker_file_name": "AnimatedSticker.tgs",
-            "price": 50,
-            "convert_price": 43,
-            "available_amount": 0,
-            "total_amount": 0,
-            "is_limited": false,
-            "message_id": 282
-        },
-        {
-            "id": 6042113507581755979,
-            "number": 121,
-            "sticker_file_id": "BQACAgIAAxUAAWhEuCtsW4fPJ9hQXsH1pE1jkHnfAAIihQACTcnYS8J1RcHtaBHIHgQ",
-            "sticker_file_name": "AnimatedSticker.tgs",
-            "price": 200,
-            "convert_price": 170,
-            "available_amount": 0,
-            "total_amount": 180000,
-            "is_limited": true,
-            "message_id": 284
         }
     ]
 }
